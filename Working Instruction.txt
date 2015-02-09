@@ -1,0 +1,28 @@
+READ ME !!!!
+
+This is an eecubems dropbox :) consists of 3 main folders 
+
+1) CU_EE_fl12  
+2) CU_EE_fl13
+3) CU_EE_HV
+
+In each folder have 2 sub-folder inside
+
+<<< EE_information >>> 
+this folder contain the informations of electeical engineering deparatment
+
+!!! REQUIREMENT !!!
+>> picture in "jpg", "png" format 
+>> resolution of the picture .. "1920 x 930" pixels
+>> should not more that "10 pictures" and not less than "3 picture" in this folder
+>> name of the picture must only in "number" or "letter" ... no use!! "Symbol" !! 
+
+ 
+<<< Image >>>
+this folder contain the pictures to run in the screen saver (photo collection)
+
+!!! REQUIREMENT !!!
+>> picture in "png" format only !!
+>> resolution of the picture .. "1920 x 930" pixels 
+>> should not more that "15 pictures" and in this folder
+>> name of the picture must only in "number" or "letter" ... no use!! "Symbol" !! 
