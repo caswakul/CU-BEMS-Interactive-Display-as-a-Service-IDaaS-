@@ -1,13 +1,13 @@
-import ddf.minim.*;
+//import ddf.minim.*;
 import SimpleOpenNI.*;
 import java.net.*;
 import java.io.*;
 import java.util.*;
 
-Minim minim_canvas1, minim_canvas2, minim_welcome, minim_goodbye;
-Minim swipe; 
+//Minim minim_canvas1, minim_canvas2, minim_welcome, minim_goodbye;
+//Minim swipe; 
 
-AudioPlayer gameBackground, swipeSound, welcome;
+//AudioPlayer gameBackground, swipeSound, welcome;
 SimpleOpenNI kinect;
 
 //--------------------------- PARAMETER INITAILIZATION KINECT & CLOCK -----------------------//
@@ -201,8 +201,8 @@ void setup() {
   kinect.enableUser();
 
   // for loading music background in canvas 2
-  minim_canvas2   = new Minim(this); 
-  gameBackground = minim_canvas2.loadFile("bgm.mp3", 2048);
+//  minim_canvas2   = new Minim(this); 
+//  gameBackground = minim_canvas2.loadFile("bgm.mp3", 2048);
 
   clock_font       = loadFont("CordiaUPC-Bold-200.vlw");
   fetch_font       = loadFont("Calibri-Light-200.vlw");
@@ -262,8 +262,8 @@ void draw() {
     alreadyRunInitialisationCodeInCurrentCanvas = 0;
 
     // stop playing background sound of previous canvas //
-    gameBackground.close();
-    gameBackground = minim_canvas2.loadFile("bgm.mp3", 2048);
+//    gameBackground.close();
+//    gameBackground = minim_canvas2.loadFile("bgm.mp3", 2048);
 
     //    welcome.close();
     //    minim_welcome.stop();
