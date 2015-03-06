@@ -44,7 +44,11 @@ int preecha_resetSelect_icon;
 // ---------------------------   CANVAS 0 (PHOTO COLLECTIONS >>>>> SCREEN_SAVER) ------------------------
 int preecha_resetIntervakcheck_canvas0;
 ArrayList<PImage>preecha_allImages_canvas0 ;
-String preecha_pictureFolder_canvas0 = "/Users/CU-EE/DropBox/CU_EE_fl12/Image/";
+//String preecha_pictureFolder_canvas0 = "/Users/CU-EE/DropBox/CU_EE_fl13/Image/";
+//String preecha_pictureFolder_canvas0 = "/Users/CU-EE/DropBox/CU_EE_fl12/Image/";
+//String preecha_pictureFolder_canvas0 = "/Users/CU-EE/DropBox/CU_EE_HV/Image/";
+String preecha_pictureFolder_canvas0 = "/Users/CU-EE/DropBox/CU_EE_lab392/Image/";
+
 
 // --------------------------------   CANVAS 1 (PICTURE TRANSLATION) ------------------------------------
 ArrayList<PImage> preecha_allImages;
@@ -130,12 +134,25 @@ float  preecha_imageShift_xpos_canvas3 = 0;
 float  preecha_imageShift_ypos_canvas3 = 0;
 float  preecha_imageShift_Target_canvas3 = 0;
 float  preecha_easingRatio_canvas3 = 0.35;    // speed to change to next Picture
-String preecha_pictureFolder_canvas3 = "/Users/CU-EE/Dropbox/CU_EE_fl12/EE_information/";
+//String preecha_pictureFolder_canvas3 = "/Users/CU-EE/Dropbox/CU_EE_fl13/EE_information/";
+//String preecha_pictureFolder_canvas3 = "/Users/CU-EE/Dropbox/CU_EE_fl12/EE_information/";
+//String preecha_pictureFolder_canvas3 = "/Users/CU-EE/Dropbox/CU_EE_HV/EE_information/";
+String preecha_pictureFolder_canvas3 = "/Users/CU-EE/Dropbox/CU_EE_lab392/EE_information/";
 
 //--------------------------------   CANVAS  4 (Alarm & Alert)  -------------------------------------
 PFont alarm, textwarn, textBuilding;
 
-int zone_index = 5;
+// zone_index specifies the first page shown, upon canvas activation
+// which can be configured to customise per-installation-area display
+int zone_index = 0; //   "EE department", 
+//int zone_index = 1; //   "EE Building fl2", 
+//int zone_index = 2; //   "EE Building fl3", 
+//int zone_index = 3; //   "EE Building fl4", 
+//int zone_index = 4; //   "EE Building fl5", 
+//int zone_index = 5; //   "Building4 fl12", 
+//int zone_index = 6; //   "Building4 fl13", 
+//int zone_index = 7; //   "High Voltage"
+
 
 int percent;
 int [] target;

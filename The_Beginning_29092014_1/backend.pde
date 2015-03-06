@@ -195,14 +195,26 @@ void ieee1888_write() {
       "<ns2:dataRQ xmlns:ns2=\"http://soap.fiap.org/\">"+
       "<transport xmlns=\"http://gutp.jp/fiap/2009/11/\">"+
       "<body>"+
-      "<pointSet id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect\">"+
-      "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect/num_user\">"+
+//      "<pointSet id=\"http://bems.ee.eng.chula.ac.th/eng4/fl13/corridor/elevatorfront/kinect\">"+
+//      "<pointSet id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect\">"+
+//      "<pointSet id=\"http://bems.ee.eng.chula.ac.th/highvoltage/kinect\">"+
+      "<pointSet id=\"http://bems.ee.eng.chula.ac.th/ee/lab392/corridor/kinect\">"+
+//      "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl13/corridor/elevatorfront/kinect/num_user\">"+
+//      "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect/num_user\">"+
+//      "<point id=\"http://bems.ee.eng.chula.ac.th/highvoltage/kinect/num_user\">"+
+      "<point id=\"http://bems.ee.eng.chula.ac.th/ee/lab392/corridor/kinect/num_user\">"+
       "<value time=\""+write_year+"-"+write_month+"-"+write_day+"T"+write_hour+":"+write_min+":"+write_sec+".000+07:00\">"+noUser+"</value>"+
       "</point>"+
-     "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect/canvas_num\">"+
+//     "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl13/corridor/elevatorfront/kinect/canvas_num\">"+
+//     "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect/canvas_num\">"+
+//     "<point id=\"http://bems.ee.eng.chula.ac.th/highvoltage/kinect/canvas_num\">"+
+     "<point id=\"http://bems.ee.eng.chula.ac.th/ee/lab392/corridor/kinect/canvas_num\">"+
      "<value time=\""+write_year+"-"+write_month+"-"+write_day+"T"+write_hour+":"+write_min+":"+write_sec+".000+07:00\">"+"canvas"+canvas_number+"</value>"+
       "</point>"+  
-     "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect/num_swipe\">"+
+//     "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl13/corridor/elevatorfront/kinect/num_swipe\">"+
+//     "<point id=\"http://bems.ee.eng.chula.ac.th/eng4/fl12/corridor/elevatorfront/kinect/num_swipe\">"+
+//     "<point id=\"http://bems.ee.eng.chula.ac.th/highvoltage/kinect/num_swipe\">"+
+     "<point id=\"http://bems.ee.eng.chula.ac.th/ee/lab392/corridor/kinect/num_swipe\">"+
      "<value time=\""+write_year+"-"+write_month+"-"+write_day+"T"+write_hour+":"+write_min+":"+write_sec+".000+07:00\">"+"swipe"+noSwipe+"</value>"+
       "</point>"+        
       "</pointSet>"+"</body>"+
